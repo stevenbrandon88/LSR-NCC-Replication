@@ -1,0 +1,86 @@
+ID,Category,Test,Result,Statistic,p_value,N,Effect,Direction,Interpretation
+T001,Crisis,Polycrisis cascade: count→severity,Confirmed,rho=0.906,2.71e-64,169,rho=0.906,positive,Each crisis adds ~1 severity
+T002,Crisis,Linear cascade model,R²=0.85,slope=0.960,0.0098032675866786,169,R²=0.852,positive,Near-perfect linear cascade
+T003,Crisis,decline→severity,Sig,U=2218,0.0001,169,diff=+1.03,increases,decline severity effect
+T004,Crisis,epidemic→severity,Sig,U=451,0.0001,169,diff=+1.65,increases,epidemic severity effect
+T005,Crisis,downw.mob→severity,Sig,U=524,2e-06,169,diff=+1.75,increases,downw.mob severity effect
+T006,Crisis,extermination→severity,Sig,U=524,0.0096205812970438,169,-1.48,dec,extermination severity effect
+T007,Crisis,uprising→severity,Sig,U=472,0.0048,169,diff=+0.94,increases,uprising severity effect
+T008,Crisis,civil.war→severity,Sig,U=387,1.1e-08,169,diff=+2.31,increases,civil.war severity effect
+T009,Crisis,century.plus→severity,NS,U=156,0.2650946878135245,169,-1.14,dec,century.plus severity effect
+T010,Crisis,capital→severity,Sig,U=1252,0.0004,169,diff=+1.36,increases,capital severity effect
+T011,Crisis,conquest→severity,Sig,U=196,0.003,169,diff=+0.95,increases,conquest severity effect
+T012,Crisis,assassin→severity,Sig,U=1098,0.0005,169,diff=+1.15,increases,assassin severity effect
+T013,Crisis,depose→severity,Sig,U=1316,1e-05,169,diff=+1.35,increases,depose severity effect
+T014,Crisis,Severity over millennia,Inc,rho=0.189,0.0137973179926849,169,rho=0.189,pos,Historical severity trend
+T015,Axial,Prosocial accumulation over time,Confirmed,rho=0.788,7.035656227276256e-92,428,rho=0.788,positive,Universal prosocial trend
+T016,Axial,Trajectory:Cambodian Basin,Stable,rho=0.208,0.4233286792331666,17,rho=0.208,pos,Cambodian Basin
+T017,Axial,Trajectory:Crete,Inc,rho=0.950,9.693827544190716e-20,38,rho=0.950,pos,Crete
+T018,Axial,Trajectory:Galilee,Inc,rho=0.913,4.9738130696955335e-14,34,rho=0.913,pos,Galilee
+T019,Axial,Trajectory:Kachi Plain,Inc,rho=0.910,2.675487554769954e-17,43,rho=0.910,pos,Kachi Plain
+T020,Axial,Trajectory:Kansai,Inc,rho=0.796,1.79943016319861e-16,70,rho=0.796,pos,Kansai
+T021,Axial,Trajectory:Konya Plain,Inc,rho=0.916,3.03365250309468e-16,39,rho=0.916,pos,Konya Plain
+T022,Axial,Trajectory:Latium,Inc,rho=0.944,1.5425634254229048e-13,27,rho=0.944,pos,Latium
+T023,Axial,Trajectory:Middle Yellow River Valley,Inc,rho=0.727,1.618448232589345e-07,39,rho=0.727,pos,Middle Yellow River Valley
+T024,Axial,Trajectory:Susiana,Inc,rho=0.952,1.6127712176025927e-30,58,rho=0.952,pos,Susiana
+T025,Axial,Trajectory:Upper Egypt,Inc,rho=0.883,1.1274345201104461e-21,63,rho=0.883,pos,Upper Egypt
+T026,Religion,MSP increases over time,Confirmed,rho=0.386,1.9048856519522774e-12,348,rho=0.386,positive,Moralizing enforcement trend
+T027,Religion,Target:ruler,Measured,desc,,348,74.3%,measured,Punishment target
+T028,Religion,Target:elite,Measured,desc,,348,75.6%,measured,Punishment target
+T029,Religion,Target:commoners,Measured,desc,,348,70.2%,measured,Punishment target
+T030,Religion,Target:broad,Measured,desc,,348,63.1%,measured,Punishment target
+T031,Religion,Target:targeted,Measured,desc,,348,71.5%,measured,Punishment target
+T032,Complexity,Irrigation→inst complexity,Confirmed,U=21967,1.45805746260061e-34,342,0.801 vs 0.276,positive,Food infra drives governance
+T033,Complexity,Settlement hierarchy→inst,Sig,rho=0.679,1.965957060274292e-47,341,rho=0.679,pos,Scaling correlation
+T034,Complexity,Administrative levels→inst,Sig,rho=0.736,1.7448647903681787e-58,335,rho=0.736,pos,Scaling correlation
+T035,Complexity,Military-civilian co-evolution,Co-evolve,rho=0.663,1.135525706357948e-44,342,rho=0.663,positive,Institutions co-develop
+T036,Integration,MSP→inst complexity,Confirmed,rho=0.485,0.0089697273296089,28,rho=0.485,positive,Prosocial enforcement enables scaling
+T037,Agriculture,Productivity:Big Island Hawaii,Measured,desc,,1,3.25,measured,Historical yield
+T038,Agriculture,Productivity:Cahokia,Measured,desc,,1,0.67,measured,Historical yield
+T039,Agriculture,Productivity:Cambodian Basin,Measured,desc,,2,1.98,measured,Historical yield
+T040,Agriculture,Productivity:Central Java,Measured,desc,,1,1.34,measured,Historical yield
+T041,Agriculture,Productivity:Chuuk Islands,Measured,desc,,2,13.00,measured,Historical yield
+T042,Agriculture,Productivity:Cuzco,Measured,desc,,1,1.20,measured,Historical yield
+T043,Agriculture,Productivity:Deccan,Measured,desc,,1,1.37,measured,Historical yield
+T044,Agriculture,Productivity:Finger Lakes,Measured,desc,,1,0.50,measured,Historical yield
+T045,Agriculture,Productivity:Kachi Plain,Measured,desc,,1,1.10,measured,Historical yield
+T046,Agriculture,Productivity:Kansai,Measured,desc,,6,1.76,measured,Historical yield
+T047,Agriculture,Productivity:Konya Plain,Measured,desc,,1,1.00,measured,Historical yield
+T048,Agriculture,Productivity:Latium,Measured,desc,,11,0.68,measured,Historical yield
+T049,Agriculture,Productivity:Middle Yellow River Valley,Measured,desc,,6,0.60,measured,Historical yield
+T050,Agriculture,Productivity:Oro PNG,Measured,desc,,1,6.50,measured,Historical yield
+T051,Agriculture,Productivity:Paris Basin,Measured,desc,,11,1.26,measured,Historical yield
+T052,Agriculture,Productivity:Sogdiana,Measured,desc,,1,1.50,measured,Historical yield
+T053,Agriculture,Productivity:Susiana,Measured,desc,,2,0.95,measured,Historical yield
+T054,Agriculture,Productivity:Upper Egypt,Measured,desc,,6,1.26,measured,Historical yield
+T055,Agriculture,Productivity:Valley of Oaxaca,Measured,desc,,7,0.87,measured,Historical yield
+T056,Complexity,NGA:Central Java,Measured,desc,,9,0.910,measured,Inst level
+T057,Complexity,NGA:Cambodian Basin,Measured,desc,,9,0.896,measured,Inst level
+T058,Complexity,NGA:Yemeni Coastal Plain,Measured,desc,,5,0.894,measured,Inst level
+T059,Complexity,NGA:Upper Egypt,Measured,desc,,37,0.860,measured,Inst level
+T060,Complexity,NGA:Middle Yellow River Valley,Measured,desc,,36,0.816,measured,Inst level
+T061,Complexity,NGA:Deccan,Measured,desc,,15,0.808,measured,Inst level
+T062,Complexity,NGA:Konya Plain,Measured,desc,,27,0.735,measured,Inst level
+T063,Complexity,NGA:Susiana,Measured,desc,,38,0.732,measured,Inst level
+T064,Complexity,NGA:Sogdiana,Measured,desc,,19,0.726,measured,Inst level
+T065,Complexity,NGA:Latium,Measured,desc,,17,0.719,measured,Inst level
+T066,Complexity,NGA:Southern China Hills,Measured,desc,,4,0.719,measured,Inst level
+T067,Complexity,NGA:Orkhon Valley,Measured,desc,,20,0.683,measured,Inst level
+T068,Complexity,NGA:Niger Inland Delta,Measured,desc,,27,0.682,measured,Inst level
+T069,Complexity,NGA:Iceland,Measured,desc,,4,0.638,measured,Inst level
+T070,Complexity,NGA:Valley of Oaxaca,Measured,desc,,11,0.630,measured,Inst level
+T071,Complexity,NGA:Kachi Plain,Measured,desc,,17,0.628,measured,Inst level
+T072,Complexity,NGA:Paris Basin,Measured,desc,,22,0.620,measured,Inst level
+T073,Complexity,NGA:Kansai,Measured,desc,,17,0.598,measured,Inst level
+T074,Complexity,NGA:Ghanaian Coast,Measured,desc,,4,0.484,measured,Inst level
+T075,Complexity,NGA:Big Island Hawaii,Measured,desc,,5,0.445,measured,Inst level
+T076,Complexity,NGA:Cuzco,Measured,desc,,13,0.432,measured,Inst level
+T077,Complexity,NGA:Oro PNG,Measured,desc,,4,0.375,measured,Inst level
+T078,Complexity,NGA:North Colombia,Measured,desc,,2,0.327,measured,Inst level
+T079,Complexity,NGA:Chuuk Islands,Measured,desc,,2,0.219,measured,Inst level
+T080,Complexity,NGA:Garo Hills,Measured,desc,,4,0.219,measured,Inst level
+T081,Complexity,NGA:Kapuasi Basin,Measured,desc,,4,0.188,measured,Inst level
+T082,Complexity,NGA:Lena River Valley,Measured,desc,,5,0.163,measured,Inst level
+T083,Complexity,NGA:Finger Lakes,Measured,desc,,4,0.156,measured,Inst level
+T084,Complexity,NGA:Cahokia,Measured,desc,,13,0.109,measured,Inst level
+T085,Complexity,NGA:Lowland Andes,Measured,desc,,4,0.000,measured,Inst level
